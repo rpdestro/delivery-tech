@@ -1,0 +1,33 @@
+1 - Criar conta e repositório em http://github.com
+
+Comandos Git/GitHub
+
+$ git remote add origim https://github.com/rpdestro/delivery-tech.git
+$ git branch -M main 
+$ git push -u origim main 
+$ git remote add origim https://github.com/rpdestro/delivery-tech.git
+$ git branch -M main 
+$ git push -u origim main 
+$ git branch -M main 
+$ git push -u origim main
+
+$ git add readme2.txt 
+$ git commit -m "Adiciona readme2.txt"
+$ git commit -m "Adiciona readme2.txt"
+$ git status 
+$ git log
+$ git branch -M main 
+$ git push -u origim main
+
+2 - Corrigindo erro de autenticação
+$ ssh-keygen -t ed25519 -C
+$ ssh-keygen -t ed25519 -C renato.destro@gmail.com
+$ git branch -M main 
+$ git push -u origin main 
+$ cat ~/.ssh/id_ed25519.pub 
+$ eval "$(ssh-agent -s)"ssh-add
+
+$ git remote add origin git@github.com:rpdestro/delivery-tech.git
+$ git branch -M main 
+$ git push -u origin main 
+$ ssh -T github.com 
